@@ -1,5 +1,3 @@
-# Hello, world!
+# Lab Report 1
 
-**this**
-
-![](./lab-report-title.png)
+![](./
