@@ -7,6 +7,7 @@
 ![](cd1.png)
 
 When the `cd` command is used with no arguments, your current directory is changed to the home directory.
+
 ![](cd2.png)
 
 When the `cd` command is used with a path to a directory, it will change your current directory to the specified directory if it is present within your current directory.
@@ -38,10 +39,10 @@ When the `ls` command is used with a path to a file, it will typically list the 
 ![](cat1.png)
 
 When the `cat` command is used with no arguments, it typically waits for text input from the user and then prints that input text back to the terminal.
+
 ![](cat2.png)
 
 When the `cat` command is used with a path to a directory, it will typically produce an error because the command is primarily intended to be used with files, not directories.
-
 
 ![](cat3.png)
 
