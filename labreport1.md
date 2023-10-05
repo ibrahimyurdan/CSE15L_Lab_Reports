@@ -4,7 +4,7 @@
 
 `cd`
 
-![Image](cd1.png)
+![](cd1.png)
 
 When the `cd` command is used with no arguments, your current directory is changed to the home directory.
 
