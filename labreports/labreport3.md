@@ -4,4 +4,4 @@
 
 ### **List Examples `reverseInPlace` method:**
 
-![](../labreport3-images/reverseInPlace.png)
+![Image](../labreport3images/reverseInPlace.png)
