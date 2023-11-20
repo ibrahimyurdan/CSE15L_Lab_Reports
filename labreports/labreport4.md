@@ -25,13 +25,17 @@ git clone git@github.com:ibrahimyurdan/lab7.git<enter>
 ![](../labreportimages/labreport4images/2.png)
 
 ## Step 6
-Running the tests, showing that they fail.
+
+Running the tests, showing that they will fail.
+
 ```
 cd l<tab><enter>
 ```
+
 Change directory `lab7`.
 
 ![](../labreportimages/labreport4images/3.png)
+
 ```
 bash t<tab><enter>
 ```
@@ -41,10 +45,13 @@ Using `bash` command to run the `test.sh` script.
 ![](../labreportimages/labreport4images/4.png)
 
 ## Step 7
-Editing the code file to fix the failing test.
+
+Editing the code to fix the failing test.
+
 ```
 vim Li<tab>.<tab><enter>
 ```
+
 Using `vim` to open `ListExamples.java`.
 
 ![](../labreportimages/labreport4images/5.png)
@@ -66,6 +73,7 @@ The `/` command is used to search for a pattern defined as `index1 +`. Following
 ![](../labreportimages/labreport4images/7.png)
 
 ## Step 8
+
 Running the tests, they now succeed.
 
 ```
@@ -77,6 +85,7 @@ Using `bash` to run `test.sh`.
 ![](../labreportimages/labreport4images/8.png)
 
 ## Step 9
+
 Commit and push the changes to the Github account.
 
 ```
