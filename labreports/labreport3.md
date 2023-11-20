@@ -194,6 +194,6 @@ Output:
 Directory permissions are modified.
 ```
 
-Finds all directories within ./technical and changes their permissions to 755.
+Finds all directories within `./technical` and changes their permissions to 755.
 
 [Source: The GNU Utilities](https://www.gnu.org/software/findutils/manual/html_mono/find.html)
