@@ -17,8 +17,9 @@ ssh cs<tab><enter>
 Cloning fork of the repository from the GitHub account (using the `SSH` URL).
 
 ```
-git clone git@github.com:ibrahimyurdan/lab7.git<enter>
+git clone[<shift><ins>]<enter>
 ```
+`<shift><ins>` is the paste hot key for git bash terminal.
 
 `git clone` cloning the repository.
 
@@ -37,7 +38,9 @@ Change directory `lab7`.
 ![](../labreportimages/labreport4images/3.png)
 
 ```
-bash t<tab><enter>
+bash t<tab><enter> 
+
+(im not sure how to minimize more than this. maybe bash t<up><enter>?)
 ```
 
 Using `bash` command to run the `test.sh` script.
@@ -60,7 +63,9 @@ Using `vim` to open `ListExamples.java`.
 /index1 +<enter>nner2
 ```
 
-The `/` command is used to search for a pattern defined as `index1 +`. Following that, we can use `<enter>nn` to locate the third occurrence of the pattern, with each `n` iterating one instance of the pattern. Typing `e` moves the cursor to the end of the word `index1`, placing it just before `1`. Subsequently, the `r2` command is employed to replace `1` with `2`.
+`/` command searches for a pattern with the pattern being `index1 +` \
+Then we hit `<enter>nn` to find the third occurrence of the pattern with each `n` iterating 1 instance of the pattern \
+`e` goes to the end of the word `index1` putting the cursor right before `1` and the `r2` command replaces `1` with `2`
 
 ![](../labreportimages/labreport4images/6.png)
 
@@ -96,9 +101,9 @@ git commit -m "fixed an issue where merge would increment the wrong index"<enter
 git push origin main
 ```
 
-`git add .` This command stages all files for the next commit by adding them to the staging area.
+`git add .` `hit <enter>` to complete. This command stages all files for the next commit by adding them to the staging area.
 
-`git commit -m "<message"` This command commits all staged files with a message, creating a snapshot of changes in the repository.
+`git commit -m "message"`, `I typed the message but we can <ctrl+v> to paste the message and <enter> to complete.` This command commits all staged files with a message, creating a snapshot of changes in the repository.
 
 `git push origin main` This command pushes all commits to the remote repository named `origin`, specifically from the `main` branch.
 
